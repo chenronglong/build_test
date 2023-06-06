@@ -1,0 +1,8 @@
+version: '3'
+services:
+  build_demo:
+    restart: always
+    build: ./
+    container_name: build_demo
+    ports:
+      - "9999:9999"

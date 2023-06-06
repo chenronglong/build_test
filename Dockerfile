@@ -9,4 +9,5 @@ COPY ./main /app
 
 EXPOSE 9999
 
-ENTRYPOINT [ "./main" ]
+ENTRYPOINT [ "main" ]
+# CMD [ "main"]
